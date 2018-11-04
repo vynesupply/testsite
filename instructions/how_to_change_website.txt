@@ -1,0 +1,22 @@
+how to change website
+0. install node.js
+1. install atom text editor all required packeges
+	-add list here
+2. download/git pull webiste files from drive/repository
+3. atom->open project->navigate to folder where you downloaded it to
+4. edit text in index.html, images in the correct folder, webiste visual elements in CSS, etc. 
+5. save changes/commit+push to repo
+
+/*upload to webiste*/
+6. zip up all files 
+7. log into cPanel (either through freehosting client area or cpanel directly)
+8. go to /home/*username* publichtml
+9. upload zip to here
+10. delete old files here that zip also contains
+11. extract here
+12. delete zip file
+13. move extracted files to top level under publichtml
+14. refresh vyne.supply to check it loads correctly. 
+
+/*setting git hub*/
+15. figure out howpull requests work
