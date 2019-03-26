@@ -1,11 +1,25 @@
 how to change website
 0. install node.js
 1. install atom text editor all required packeges
-	-add list here
-2. download/git pull webiste files from drive/repository
-3. atom->open project->navigate to folder where you downloaded it to
+	-atom-nodejs-snippets
+    -autocomplete-html-entities
+    -busy-signal
+    -intentions
+    -linter
+    -linter-csslint
+    -linter-eslint
+    -linter-jshint
+    -linter-jsonlint
+    -linter-sass-lint
+    -linter-scss-lint
+    -linter-spell
+    -linter-spell-html
+    -linter-ui-default
+    -teletype
+2. download/git pull webiste files from drive/repository (see github instructions)
+3. atom->open project->navigate to folder where you downloaded it to. NOTE: MAKE SURE IT IS THE TOP LEVEL CLONED FOLDER
 4. edit text in index.html, images in the correct folder, webiste visual elements in CSS, etc. 
-5. save changes/commit+push to repo
+5. save changes/commit+push to repo using the built in atom git tab on the right. (see github instructions first)
 
 /*upload to webiste*/
 6. zip up all files 
@@ -15,8 +29,17 @@ how to change website
 10. delete old files here that zip also contains
 11. extract here
 12. delete zip file
-13. move extracted files to top level under publichtml
+13. move extracted files to top level under publichtml if needed.
 14. refresh vyne.supply to check it loads correctly. 
 
-/*setting git hub*/
-15. figure out howpull requests work
+/*setting git hub up 1*/
+15. Create github account
+16. login as vynesupply account and navigate to the repository, settings, collaborators, add collaborator.
+
+/*setting git hub up 2*/
+17. navigate to the folder where you wish to download the website files
+18. run git bash here and enter the following commands
+19. git config --global user.name "User Name"
+20. git config --global user.email "email@example.com"
+21. git clone https://github.com/vynesupply/testsite.git
+
