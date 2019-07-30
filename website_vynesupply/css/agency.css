@@ -86,6 +86,30 @@ section h3.section-subheading {
   box-shadow: 0 0 0 0.2rem rgba(73, 146, 52, 0.5) !important;
 }
 
+.btn-link-vyne {
+  font-weight: 400;
+  color: #499233;
+  background-color: transparent;
+}
+
+.btn-link-vyne:hover {
+  color: #49920d;
+  text-decoration: underline;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+.btn-link-vyne:focus, .btn-link-vyne.focus {
+  text-decoration: underline;
+  border-color: transparent;
+  box-shadow: none;
+}
+
+.btn-link-vyne:disabled, .btn-link-vyne.disabled {
+  color: #49920d;
+  pointer-events: none;
+}
+
 ::-moz-selection {
   background: #499233;
   text-shadow: none;
