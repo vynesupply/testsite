@@ -521,7 +521,10 @@ header.masthead .intro-text .intro-heading {
 }
 
 .timeline .timeline-heading h4.subheading {
+  font-weight: 300;
+  font-size: 16px;
   text-transform: none;
+
 }
 
 .timeline .timeline-body > ul,
