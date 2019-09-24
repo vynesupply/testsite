@@ -133,8 +133,8 @@ img::-moz-selection {
   background: transparent;
 }
 
-#mainNav {
-  background-color: #212529;
+#mainNav {/*colour of nave when not full screen*/
+  background-color: #000000;
 }
 
 #mainNav .navbar-toggler {
